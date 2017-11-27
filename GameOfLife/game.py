@@ -6,7 +6,7 @@ from matplotlib.animation import FuncAnimation
 
 Cell = namedtuple('Cell', ['x', 'y'])
 
-#no boundary condition
+#periodic boundary condition
 
 #gets the neighbor cells via a tuple value for each cell coordinate given
 def getNeighbours(m,cell):
